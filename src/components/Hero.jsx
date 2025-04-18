@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import profilimage from "../assets/profil.jpg";
 
 function Hero() {
   const [isVisible, setIsVisible] = useState(false);
@@ -171,7 +172,7 @@ function Hero() {
 
               <div className="bg-white p-3 rounded-full shadow-xl relative z-10">
                 <div className="rounded-full overflow-hidden h-64 w-64 md:h-72 md:w-72 lg:h-80 lg:w-80 border-4 border-blue-100">
-                  <img src="/images/profil.jpg" alt="Profile" />
+                  <img src={profilimage} alt="Profile" />
                 </div>
               </div>
             </div>
