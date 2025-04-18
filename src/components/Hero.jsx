@@ -171,11 +171,7 @@ function Hero() {
 
               <div className="bg-white p-3 rounded-full shadow-xl relative z-10">
                 <div className="rounded-full overflow-hidden h-64 w-64 md:h-72 md:w-72 lg:h-80 lg:w-80 border-4 border-blue-100">
-                  <img
-                    src="/api/placeholder/300/300"
-                    alt="Profile"
-                    className="h-full w-full object-cover"
-                  />
+                  <img src="/images/profil.jpg" alt="Profile" />
                 </div>
               </div>
             </div>
