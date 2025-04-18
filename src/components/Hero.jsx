@@ -181,9 +181,9 @@ function Hero() {
       </div>
 
       {/* Wave shape divider */}
-      <div className="absolute bottom-0 left-0 w-full overflow-hidden leading-none ">
+      <div className="absolute bottom-0 left-0 w-full overflow-hidden leading-none">
         <svg
-          className="relative block w-full h-16 md:h-24"
+          className="relative hidden md:block w-full h-16 md:h-24"
           data-name="Layer 1"
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 1200 120"
